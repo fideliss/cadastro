@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/entity/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#276#277#0" expanded="true" />
@@ -54,6 +54,29 @@
                 <element signature="e#689#690#0" expanded="true" />
                 <element signature="e#731#732#0" expanded="true" />
                 <element signature="e#765#766#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsuarioDTO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/dto/UsuarioDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,6 +113,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/entity/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cadastro/dto/UsuarioDTO.java" />
       </list>
     </option>
   </component>
@@ -303,7 +327,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info id="Capture Tool" order="2" />
@@ -377,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/entity/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#276#277#0" expanded="true" />
@@ -397,6 +421,27 @@
             <element signature="e#689#690#0" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
             <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/dto/UsuarioDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
           </folding>
         </state>
       </provider>
