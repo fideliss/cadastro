@@ -73,4 +73,20 @@ public class UsuarioResource {
         return response;
     }
 
+    @DeleteMapping(value = "/{id}")
+    public ResponseUtil<String> delete(@PathVariable Long id) {
+        ResponseUtil<String> response = new ResponseUtil<String>();
+
+        if (this.usuarioService.existe(id)) {
+            this.usuarioService.deleta(id);
+            response.setData("Usuário deletado.");
+        } else {
+            response.setErrors(new ArrayList<String>());
+            String erro = "Não foi encontrado um usuário com o id: " + id;
+            response.getErrors().add(erro);
+        }
+
+        return response;
+    }
+
 }

@@ -6,12 +6,16 @@ import java.util.List;
 
 public interface UsuarioService {
 
-    public Usuario buscaPeloNome(String nome);
+    Usuario buscaPeloNome(String nome);
 
-    public List<Usuario> buscaTodos();
+    List<Usuario> buscaTodos();
 
-    public Usuario buscaPeloId(Long id);
+    Usuario buscaPeloId(Long id);
 
-    public void salvaOuAltera(Usuario usuario);
+    void salvaOuAltera(Usuario usuario);
+
+    void deleta(Long id);
+
+    Boolean existe(Long id);
 
 }

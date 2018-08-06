@@ -30,4 +30,12 @@ public class UsuarioServiceImpl implements UsuarioService {
         this.usuarioRepository.save(usuario);
     }
 
+    public void deleta(Long id) {
+        this.usuarioRepository.delete(id);
+    }
+
+    public Boolean existe(Long id) {
+        return this.usuarioRepository.exists(id);
+    }
+
 }

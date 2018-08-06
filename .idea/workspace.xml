@@ -61,12 +61,13 @@
       <file leaf-file-name="UsuarioResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="408">
+              <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1288#1300#0" expanded="true" />
                 <element signature="e#1801#1813#0" expanded="true" />
+                <element signature="e#2608#2616#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +88,8 @@
       <file leaf-file-name="UsuarioService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="272">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,14 +100,18 @@
       <file leaf-file-name="UsuarioServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#687#688#0" expanded="true" />
                 <element signature="e#708#709#0" expanded="true" />
                 <element signature="e#786#787#0" expanded="true" />
                 <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,8 +161,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/dto/UsuarioDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/entity/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java" />
       </list>
     </option>
@@ -466,6 +471,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1288#1300#0" expanded="true" />
             <element signature="e#1801#1813#0" expanded="true" />
+            <element signature="e#2608#2616#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -490,6 +496,10 @@
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#786#787#0" expanded="true" />
             <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -632,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -642,26 +652,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="459">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#786#787#0" expanded="true" />
             <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state relative-caret-position="408">
+          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1288#1300#0" expanded="true" />
             <element signature="e#1801#1813#0" expanded="true" />
+            <element signature="e#2608#2616#0" expanded="true" />
           </folding>
         </state>
       </provider>
