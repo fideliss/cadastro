@@ -26,7 +26,7 @@ public class UsuarioServiceImpl implements UsuarioService {
         return this.usuarioRepository.findOne(id);
     }
 
-    public void salva(Usuario usuario) {
+    public void salvaOuAltera(Usuario usuario) {
         this.usuarioRepository.save(usuario);
     }
 

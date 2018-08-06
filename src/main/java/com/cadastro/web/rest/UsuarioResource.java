@@ -47,9 +47,29 @@ public class UsuarioResource {
         usuario.setEmail(usuarioDTO.getEmail());
         usuario.setSenha(usuarioDTO.getSenha());
 
-        this.usuarioService.salva(usuario);
+        this.usuarioService.salvaOuAltera(usuario);
 
         response.setData(usuarioDTO);
+        return response;
+    }
+
+    @PutMapping(value = "/{id}")
+    public ResponseUtil<UsuarioDTO> update(@PathVariable Long id, @RequestBody UsuarioDTO usuarioDTO) {
+        ResponseUtil<UsuarioDTO> response = new ResponseUtil<UsuarioDTO>();
+        Usuario usuario = this.usuarioService.buscaPeloId(id);
+
+        if (usuario != null) {
+            usuario.setNome(usuarioDTO.getNome());
+            usuario.setEmail(usuarioDTO.getEmail());
+            usuario.setSenha(usuarioDTO.getSenha());
+            this.usuarioService.salvaOuAltera(usuario);
+            response.setData(usuarioDTO);
+        } else {
+            response.setErrors(new ArrayList<String>());
+            String erro = "Não foi encontrado um usuário com o id: " + id;
+            response.getErrors().add(erro);
+        }
+
         return response;
     }
 

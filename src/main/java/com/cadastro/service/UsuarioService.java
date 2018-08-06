@@ -12,6 +12,6 @@ public interface UsuarioService {
 
     public Usuario buscaPeloId(Long id);
 
-    public void salva(Usuario usuario);
+    public void salvaOuAltera(Usuario usuario);
 
 }
