@@ -1,7 +1,7 @@
 import React from 'react'
 
+import Usuario from '../usuario/usuario'
+
 export default props => (
-    <div className="container">
-        <h1>App</h1>
-    </div>
+    <Usuario />
 )
