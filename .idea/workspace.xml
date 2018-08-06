@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34d6c071-1e21-41e5-9d81-3491fb2210f2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java" afterDir="false" />
@@ -61,10 +62,9 @@
       <file leaf-file-name="UsuarioResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+            <state relative-caret-position="100">
+              <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1288#1300#0" expanded="true" />
                 <element signature="e#1801#1813#0" expanded="true" />
                 <element signature="e#2608#2616#0" expanded="true" />
@@ -76,8 +76,8 @@
       <file leaf-file-name="UsuarioRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/repository/UsuarioRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="221">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +88,8 @@
       <file leaf-file-name="UsuarioService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +100,12 @@
       <file leaf-file-name="UsuarioServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
                 <element signature="e#687#688#0" expanded="true" />
                 <element signature="e#708#709#0" expanded="true" />
                 <element signature="e#786#787#0" expanded="true" />
@@ -155,14 +157,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/CadastroApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/dto/UsuarioDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/util/ResponseUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cadastro/repository/UsuarioRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/dto/UsuarioDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/entity/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cadastro/repository/UsuarioRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java" />
       </list>
     </option>
@@ -261,7 +263,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../orquestradorcloud" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -387,7 +389,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42647058" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42647058" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -468,7 +470,6 @@
         <state relative-caret-position="255">
           <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1288#1300#0" expanded="true" />
             <element signature="e#1801#1813#0" expanded="true" />
             <element signature="e#2608#2616#0" expanded="true" />
@@ -492,6 +493,8 @@
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#786#787#0" expanded="true" />
@@ -575,16 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/repository/UsuarioRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/util/ResponseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -640,10 +633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/repository/UsuarioRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -652,10 +645,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="272">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#786#787#0" expanded="true" />
@@ -668,12 +663,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
             <element signature="e#1288#1300#0" expanded="true" />
             <element signature="e#1801#1813#0" expanded="true" />
             <element signature="e#2608#2616#0" expanded="true" />

@@ -8,6 +8,8 @@ public interface UsuarioService {
 
     Usuario buscaPeloNome(String nome);
 
+    Usuario buscaPeloEmail(String email);
+
     List<Usuario> buscaTodos();
 
     Usuario buscaPeloId(Long id);

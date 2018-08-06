@@ -23,7 +23,6 @@ public class UsuarioResource {
         List<UsuarioDTO> usuariosDTOS = new ArrayList<UsuarioDTO>();
         List<Usuario> usuarios = this.usuarioService.buscaTodos();
 
-
         if (usuarios != null && usuarios.size() > 0) {
             for (Usuario usuario : usuarios) {
                 UsuarioDTO usuarioDTO = new UsuarioDTO();
@@ -41,15 +40,21 @@ public class UsuarioResource {
     @PostMapping
     public ResponseUtil<UsuarioDTO> create(@Valid @RequestBody UsuarioDTO usuarioDTO) {
         ResponseUtil<UsuarioDTO> response = new ResponseUtil<UsuarioDTO>();
+        if (this.usuarioService.buscaPeloEmail(usuarioDTO.getEmail()) != null) {
+            String erro = "Já foi cadastrado um usuário com o e-mail informado.";
+            response.setErrors(new ArrayList<String>());
+            response.getErrors().add(erro);
+        } else {
 
-        Usuario usuario = new Usuario();
-        usuario.setNome(usuarioDTO.getNome());
-        usuario.setEmail(usuarioDTO.getEmail());
-        usuario.setSenha(usuarioDTO.getSenha());
+            Usuario usuario = new Usuario();
+            usuario.setNome(usuarioDTO.getNome());
+            usuario.setEmail(usuarioDTO.getEmail());
+            usuario.setSenha(usuarioDTO.getSenha());
 
-        this.usuarioService.salvaOuAltera(usuario);
+            this.usuarioService.salvaOuAltera(usuario);
 
-        response.setData(usuarioDTO);
+            response.setData(usuarioDTO);
+        }
         return response;
     }
 

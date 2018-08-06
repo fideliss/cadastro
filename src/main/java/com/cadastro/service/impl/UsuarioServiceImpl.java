@@ -18,6 +18,10 @@ public class UsuarioServiceImpl implements UsuarioService {
         return this.usuarioRepository.findByNome(nome);
     }
 
+    public Usuario buscaPeloEmail(String email) {
+        return this.usuarioRepository.findByEmail(email);
+    }
+
     public List<Usuario> buscaTodos() {
         return this.usuarioRepository.findAll();
     }
