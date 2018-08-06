@@ -45,7 +45,6 @@ public class UsuarioResource {
             response.setErrors(new ArrayList<String>());
             response.getErrors().add(erro);
         } else {
-
             Usuario usuario = new Usuario();
             usuario.setNome(usuarioDTO.getNome());
             usuario.setEmail(usuarioDTO.getEmail());

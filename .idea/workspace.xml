@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34d6c071-1e21-41e5-9d81-3491fb2210f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cadastro/service/UsuarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cadastro/service/impl/UsuarioServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="UsuarioResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="e#1288#1300#0" expanded="true" />
                 <element signature="e#1801#1813#0" expanded="true" />
@@ -389,11 +386,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42647058" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42647058" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -675,8 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cadastro/web/rest/UsuarioResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+        <state relative-caret-position="170">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="e#1288#1300#0" expanded="true" />
             <element signature="e#1801#1813#0" expanded="true" />
