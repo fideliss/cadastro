@@ -13,7 +13,7 @@ public class Usuario implements Serializable {
     private String senha;
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getId() {
         return id;
     }

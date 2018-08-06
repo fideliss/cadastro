@@ -1,11 +1,14 @@
 package com.cadastro.dto;
 
+import javax.validation.constraints.NotNull;
+
 public class UsuarioDTO {
 
     private String nome;
     private String email;
     private String senha;
 
+    @NotNull
     public String getNome() {
         return nome;
     }
@@ -14,6 +17,7 @@ public class UsuarioDTO {
         this.nome = nome;
     }
 
+    @NotNull
     public String getEmail() {
         return email;
     }
@@ -22,6 +26,7 @@ public class UsuarioDTO {
         this.email = email;
     }
 
+    @NotNull
     public String getSenha() {
         return senha;
     }

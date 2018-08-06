@@ -5,10 +5,9 @@ import com.cadastro.entity.Usuario;
 import com.cadastro.service.UsuarioService;
 import com.cadastro.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,24 +18,39 @@ public class UsuarioResource {
     @Autowired
     private UsuarioService usuarioService;
 
-    @GetMapping("/")
+    @GetMapping
     public List<UsuarioDTO> listaUsuarios() {
         List<UsuarioDTO> usuariosDTOS = new ArrayList<UsuarioDTO>();
-//        List<Usuario> usuarios = this.usuarioService.buscaTodos();
-//        Usuario usuario = this.usuarioService.buscaPeloNome("Fidelis");
+        List<Usuario> usuarios = this.usuarioService.buscaTodos();
 
-        Usuario usuario = this.usuarioService.buscaPeloId(1L);
 
-        UsuarioDTO usuarioDTO = new UsuarioDTO();
-        if (usuario != null) {
-            usuarioDTO.setNome(usuario.getNome());
-            usuarioDTO.setEmail(usuario.getEmail());
-            usuarioDTO.setSenha(usuario.getSenha());
+        if (usuarios != null && usuarios.size() > 0) {
+            for (Usuario usuario : usuarios) {
+                UsuarioDTO usuarioDTO = new UsuarioDTO();
+                usuarioDTO.setNome(usuario.getNome());
+                usuarioDTO.setEmail(usuario.getEmail());
+                usuarioDTO.setSenha(usuario.getSenha());
+
+                usuariosDTOS.add(usuarioDTO);
+            }
         }
 
-        usuariosDTOS.add(usuarioDTO);
-
         return usuariosDTOS;
+    }
+
+    @PostMapping
+    public ResponseUtil<UsuarioDTO> create(@Valid @RequestBody UsuarioDTO usuarioDTO) {
+        ResponseUtil<UsuarioDTO> response = new ResponseUtil<UsuarioDTO>();
+
+        Usuario usuario = new Usuario();
+        usuario.setNome(usuarioDTO.getNome());
+        usuario.setEmail(usuarioDTO.getEmail());
+        usuario.setSenha(usuarioDTO.getSenha());
+
+        this.usuarioService.salva(usuario);
+
+        response.setData(usuarioDTO);
+        return response;
     }
 
 }
