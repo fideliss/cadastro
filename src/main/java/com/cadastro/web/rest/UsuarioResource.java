@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:8081")
 @RestController
 @RequestMapping("/api/cadastro")
 public class UsuarioResource {

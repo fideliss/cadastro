@@ -31,6 +31,14 @@ export default class Usuario extends Component {
 
     salvaUsuario() {
         console.log(this.state.nome + this.state.email + this.state.senha)
+        const usuario = {
+            nome: this.state.nome,
+            email: this.state.email,
+            senha: this.state.senha
+        }
+        console.log(usuario)
+        //axios.post(URL, { usuario })
+          //  .then(resp => console.log('Funcionou'))
     }
 
     render() {
