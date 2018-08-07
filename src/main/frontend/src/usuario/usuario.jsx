@@ -37,8 +37,8 @@ export default class Usuario extends Component {
             senha: this.state.senha
         }
         console.log(usuario)
-        //axios.post(URL, { usuario })
-          //  .then(resp => console.log('Funcionou'))
+        axios.post(URL, usuario)
+            .then(resp => console.log('Funcionou'))
     }
 
     render() {
