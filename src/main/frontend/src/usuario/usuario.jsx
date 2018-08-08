@@ -3,6 +3,7 @@ import axios from 'axios'
 
 import PageHeader from '../template/pageHeader'
 import UsuarioForm from './usuarioForm'
+import UsuarioList from './usuarioList'
 
 const URL = 'http://localhost:8080/api/cadastro/'
 
@@ -53,6 +54,7 @@ export default class Usuario extends Component {
                     onChangeEmail={this.onChangeEmail} 
                     onChangeSenha={this.onChangeSenha} 
                     onClickSalvar={this.salvaUsuario} />
+                <UsuarioList />
             </div>
         )
     }

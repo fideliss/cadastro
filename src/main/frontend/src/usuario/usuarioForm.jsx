@@ -23,7 +23,7 @@ export default props => (
                     value={props.senha} onChange={props.onChangeSenha} />
             </div>
         </div>
-        <div className="container col-sm-1">
+        <div className="container">
             <button onClick={props.onClickSalvar} className="btn btn-primary">Salvar</button>
         </div>
     </form>
