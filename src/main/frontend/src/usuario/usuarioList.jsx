@@ -1,6 +1,19 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
 
 const UsuarioList = props => {
+    const itensTabela = () => {
+        const list = props.list || []
+        return list.map(usuario => (
+            <tr>
+                <td>{usuario.nome}</td>
+                <td>{usuario.email}</td>
+                <td></td>
+            </tr>
+        ))
+    }
+
     return (
         <div>
             <hr />
@@ -13,15 +26,13 @@ const UsuarioList = props => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Teste</td>
-                        <td>teste@teste.com</td>
-                        <td></td>
-                    </tr>
+                    {itensTabela()}
                 </tbody>
             </table>
         </div>
     )
 }
 
-export default UsuarioList
+const mapStateToProps = state => ({ list: state.list })
+
+export default connect(mapStateToProps)(UsuarioList)
