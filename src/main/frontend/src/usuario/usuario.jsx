@@ -44,7 +44,7 @@ export default class Usuario extends Component {
     render() {
         return (
             <div>
-                <PageHeader />
+                <PageHeader name="Cadastro" />
                 <UsuarioForm 
                     nome={this.state.nome} 
                     email={this.state.email} 
